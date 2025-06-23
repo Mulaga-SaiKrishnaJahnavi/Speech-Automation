@@ -39,15 +39,7 @@ def takecommand():
         speak('Please say that again')
         return "None"
     return query
-'''
-def sendEmail(to, content):
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()
-    server.starttls()
-    server.login('pythonsamplepractice@gmail.com', 'Python@Sample123')
-    server.sendmail('pythonsamplepractice@gmail.com', to, content)
-    server.close()
-'''
+
 
 if __name__ == "__main__":
     wish()
